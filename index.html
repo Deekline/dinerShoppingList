@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
     <title>Diner Shopping List</title>
   </head>
   <body>
@@ -13,47 +14,65 @@
     </header>
     <main class="shopping-list">
       <ul class="shopping-list__items">
-        <li class="shopping-list__item">
+        <li class="shopping-list__item-odd">
           <input type="checkbox" name="pickles" id="pickles" />
-          <label for="pickles">A lot of pickles</label>
-          <p class="shopping-list__item_degraded">
-            (for the next lessons about CSS)
-          </p>
+          <label for="pickles">
+            <p class="shopping-list__item_normal">
+              A lot of pickles &nbsp
+            </p>
+            <p class="shopping-list__item_degraded">
+              (for the next lessons about CSS)
+            </p>
+          </label>
         </li>
-        <li class="shopping-list__item">
+        <li class="shopping-list__item-even">
           <input type="checkbox" name="apples" id="apples" />
-          <label for="apples">10 apples</label>
-          <p class="shopping-list__item_degraded">
-            (for more CSS manipulations)
-          </p>
+          <label for="apples">
+            <p class="shopping-list__item_normal">
+              10 apples &nbsp
+            </p>
+            <p class="shopping-list__item_degraded">
+              (for more CSS manipulations)
+            </p>
+          </label>
         </li>
-        <li class="shopping-list__item">
+        <li class="shopping-list__item-odd">
           <input type="checkbox" name="oranges" id="oranges" />
-          <label for="oranges">20 oranges</label>
-          <p class="shopping-list__item_degraded">(because they are awesome)</p>
+          <label for="oranges">
+            <p class="shopping-list__item_normal">20 oranges &nbsp</p>
+            <p class="shopping-list__item_degraded">
+              (because they are awesome)
+            </p>
+          </label>
         </li>
-        <li class="shopping-list__item">
+        <li class="shopping-list__item-even">
           <input type="checkbox" name="plate" id="plate" />
-          <label for="plate">13 plates</label>
-          <p class="shopping-list__item_degraded">
-            (hm... they always disappear)
-          </p>
+          <label for="plate">
+            <p class="shopping-list__item_normal">13 plates &nbsp</p>
+            <p class="shopping-list__item_degraded">
+              (hm... they always disappear)
+            </p>
+          </label>
         </li>
-        <li class="shopping-list__item">
+        <li class="shopping-list__item-odd">
           <input type="checkbox" name="bentos" id="bentos" />
-          <label for="bentos">15 bentos</label>
+          <label for="bentos"
+            ><p class="shopping-list__item_normal">15 bentos</p>
+          </label>
         </li>
-        <li class="shopping-list__item">
+        <li class="shopping-list__item-even">
           <input type="checkbox" name="sake" id="sake" />
-          <label for="sake">1 bottle of Sake ^_^</label>
-          <p class="shopping-list__item_degraded">
-            (for my friends)
-          </p>
+          <label for="sake"
+            ><p class="shopping-list__item_normal">1 bottle of Sake ^_^ &nbsp</p>
+            <p class="shopping-list__item_degraded">
+              (for my friends)
+            </p>
+          </label>
         </li>
       </ul>
     </main>
-    <footer>
-      <p>Bon appetit :)</p>
+    <footer class="main-footer">
+      <p class="main-footer__thx">Bon appetit :)</p>
     </footer>
   </body>
 </html>
